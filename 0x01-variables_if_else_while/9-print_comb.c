@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point of the program
- * Description: This program prints all the possible combination of single digit numbers
+ * Description: This program prints all the possible combination of single digits
  * Return: 0 as successful
  */
 int main(void)
