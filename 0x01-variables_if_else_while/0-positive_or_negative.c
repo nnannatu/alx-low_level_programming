@@ -5,10 +5,10 @@
 
 
 /**
- *  * main - Entry point of the program
- *   * Description: if-else was the basis of the program.
- *    * Return: (0) always as  Success
- *     */
+ * main - Entry point of the program
+ * Description: if-else was the basis of the program.
+ * Return: (0) always as  Success
+ */
 int main(void)
 {
 	int n;
