@@ -3,5 +3,14 @@ SRC = $(wildcard *.c)
 OBJ = $(SRC:.c=.o)
 NAME = school
 
-all: $(OBJ)
-	$(CC) $(OBJ) -o $(NAME)
+all: ${NAME} clean
+
+${NAME}: ${OBJ}
+	${CC} $^ -o $@
+
+%.o: %.c
+	${CC} -c $< -o $@
+
+clean:
+	rm -f *.o
+
